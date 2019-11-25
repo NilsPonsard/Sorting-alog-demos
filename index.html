@@ -13,15 +13,24 @@
 </head>
 
 <body>
-    <canvas id="cv-bubble" width="800" height="600">
-        canvas not supported :/
-    </canvas>
-    <canvas id="cv-select" width="800" height="600">
+    <div>
+        <h1>Tri à bulles</h1>
+        <canvas id="cv-bubble" width="800" height="600">
+            canvas not supported :/
+        </canvas>
+        <button onclick="launchBubble()">launchBubble</button>
 
-    </canvas>
+    </div>
+    <div>
+        <h1>Tri par séléction</h1>
+
+        <canvas id="cv-select" width="800" height="600">
+
+        </canvas>
+        <button onclick="launchSelect()">launchSelect</button>
+
+    </div>
     <button onclick="reset()">reset</button>
-    <button onclick="launchBubble()">launchBubble</button>
-    <button onclick="launchSelect()">launchSelect</button>
     <button onclick="launch()">both</button>
 </body>
 
